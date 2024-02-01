@@ -1,0 +1,193 @@
+* {
+  margin: 0px;/**/
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {  
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;   
+  background: linear-gradient(45deg, #190361, #68048dc9);
+}
+
+.myclass { 
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  animation: background-gradient 15s infinite;  
+}
+
+
+.hide {
+  display: none;
+}
+
+main { 
+  background-color: #ffffff;
+  width: 42.8rem;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  margin: 6.62rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*screen1*/
+
+.screen2 {
+  width: 30rem;
+}
+
+h1 {
+  color: #34355b;
+  width: 25.8rem;
+  margin-bottom: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  color: #34355b;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#closedCookie {  
+  width: 26.4rem;
+  height: 20rem;
+  padding: .6rem .9rem .17rem .57rem;
+}
+
+#closedCookie:hover{
+  animation-name: vibrate-fast;
+  animation-duration: 0.4s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+  cursor: pointer;
+}
+  
+  /* screen 2 */
+  
+.screen2 {
+  width: 30rem;
+  text-align: center;
+}
+  
+h2 {
+  margin: auto;
+  color: #34355b;
+  width: 25.8rem;
+  margin-bottom: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+  
+#randomPhrase {
+  background: #e4edf1;
+  box-shadow: .2rem .2rem .2rem 0px rgba(85, 85, 85, 0.50);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;  
+  padding: 1rem;
+}
+
+#openedCookie {
+  display: flex;
+  width: 30rem;
+  height: 20rem;
+  padding: 4.30rem 0rem 4.20rem 0rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#btnTry {
+  width: 14.2rem;
+  height: 2rem;
+  
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+form #btnTry:hover {
+  background: #ca7600;
+}
+
+.screen2 #btnTry {
+  width: 17.4rem;
+  height: 5.2rem;
+  margin-top: 1.7rem;
+  padding: 1.6rem;
+  border-radius: .4rem;
+  border: 0;
+  background: #ff9500;
+}
+
+@keyframes background-gradient {
+0% {
+  background-position: #bb00ff;
+}
+25% {
+  background-color: #190361;
+}
+}
+
+@keyframes vibrate-fast {
+			
+0% {
+  transform:translate(0);
+  }
+10% {
+  transform:translate(-2px,-2px);
+  }
+20% {
+  transform:translate(2px,-2px);
+}
+30% {
+  transform:translate(-2px,2px);
+}
+40% {
+  transform:translate(2px,2px);
+}
+50% {
+  transform:translate(-2px,-2px);
+}
+60% {
+  transform:translate(2px,-2px);
+}
+70% {
+  transform:translate(-2px,2px);
+}
+80% {
+  transform:translate(-2px,-2px);
+}
+90% {
+  transform:translate(2px,-2px);
+}
+100% {
+  transform:translate(0);
+}
+}
