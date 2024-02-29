@@ -1,6 +1,10 @@
 # Biscoito da sorte
 
-![image](https://github.com/Souzasud/projetobiscoitodasorte/assets/133075307/1db7bd11-1870-4f22-b442-6d2e37f4563d)
+## Um aplicativo para gerar frases aleatórias para o usuário quando ele clicar no biscoito da sorte.
+
+![image](https://github.com/Souzasud/projetobiscoitodasorte/assets/133075307/157ee96a-3098-490a-8c04-3735c4673e5d)
+
+
 
 
 [Clik para acessar o projeto](http://127.0.0.1:5501/index.html?)
