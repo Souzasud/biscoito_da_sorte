@@ -1,4 +1,4 @@
-# Biscoito da sorte
+# Projeto biscoito da sorte
 
 ## Um aplicativo para gerar frases aleatórias para o usuário quando ele clicar no biscoito da sorte.
 
